@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "Solaria - Solar Energy HTML Template",
@@ -16,10 +17,16 @@ export default function RootLayout({ children }) {
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta content="" name="keywords" />
         <meta content="" name="author" />
+
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="/css/plugins.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="/css/swiper.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="/css/style.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="/css/colors/scheme-1.css" />
         <style>{`
           .visually-hidden {
@@ -38,11 +45,11 @@ export default function RootLayout({ children }) {
       <body>
         {children}
 
-        <script src="/js/plugins.js"></script>
-        <script src="/js/designesia.js"></script>
-        <script src="/js/swiper.js"></script>
-        <script src="/js/custom-swiper-1.js"></script>
-        <script src="/js/custom-marquee.js"></script>
+        <Script src="/js/plugins.js" strategy="beforeInteractive" />
+        <Script src="/js/designesia.js" strategy="lazyOnload" />
+        <Script src="/js/swiper.js" strategy="lazyOnload" />
+        <Script src="/js/custom-swiper-1.js" strategy="lazyOnload" />
+        <Script src="/js/custom-marquee.js" strategy="lazyOnload" />
       </body>
     </html>
   );

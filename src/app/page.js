@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect } from 'react';
+import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -49,8 +50,8 @@ export default function Home() {
                   expert team provides clean, reliable energy solutions for
                   homes and businesses.
                   <span className="op-3">
-                    Go green, reduce your bills, and enjoy energy independence
-                    today!
+                  Go green, reduce your bills, and enjoy energy independence
+                  today!
                   </span>
                 </h3>
 
@@ -113,11 +114,13 @@ export default function Home() {
                   <div
                     className="relative overflow-hidden z-2 mb-5 rounded-1 mb-4 w-60 soft-shadow wow zoomIn"
                   >
-                    <img
+                    <Image
                       src="/images/misc/p1.webp"
                       className="w-100 wow scaleIn"
                       data-wow-duration="1s"
                       alt="Solar panel installation"
+                      width={600}
+                      height={400}
                     />
                   </div>
 
@@ -125,11 +128,13 @@ export default function Home() {
                     className="abs overflow-hidden top-0 end-0 mt-5 rounded-1 mb-4 w-60 wow zoomIn"
                     data-wow-delay=".2s"
                   >
-                    <img
+                    <Image
                       src="/images/misc/p2.webp"
                       className="w-100 wow scaleIn"
                       data-wow-duration="1s"
                       alt="Solar energy system"
+                      width={600}
+                      height={400}
                     />
                   </div>
                 </div>
@@ -148,7 +153,7 @@ export default function Home() {
                 </h2>
                 <p className="wow fadeInUp" data-wow-delay=".4s">
                   Discover the power of the sun with our end-to-end solar energy
-                  solutions. Whether you're looking to reduce your electricity
+                  solutions. Whether you&apos;re looking to reduce your electricity
                   bills, increase property value, or lower your carbon
                   footprint, we make it easy to go solar.
                 </p>
@@ -202,10 +207,12 @@ export default function Home() {
                   <div className="relative overflow-hidden">
                     <a href="service-single.html" className="d-block hover">
                       <div className="relative overflow-hidden rounded-1">
-                        <img
+                        <Image
                           src="/images/services/1.webp"
                           className="w-100 hover-scale-1-2"
                           alt="Solar panel installation service"
+                          width={400}
+                          height={300}
                         />
                       </div>
                     </a>
@@ -216,10 +223,12 @@ export default function Home() {
                         className="abs top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px"
                       >
                         <a href="project-single.html">
-                          <img
+                          <Image
                             src="/images/misc/up-right-arrow.webp"
                             className="w-60px p-20"
                             alt="View details"
+                            width={60}
+                            height={60}
                           />
                         </a>
                       </div>
@@ -238,10 +247,12 @@ export default function Home() {
                   <div className="relative overflow-hidden">
                     <a href="service-single.html" className="d-block hover">
                       <div className="relative overflow-hidden rounded-1">
-                        <img
+                        <Image
                           src="/images/services/2.webp"
                           className="w-100 hover-scale-1-2"
                           alt="Solar panel maintenance service"
+                          width={400}
+                          height={300}
                         />
                       </div>
                     </a>
@@ -252,10 +263,12 @@ export default function Home() {
                         className="abs top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px"
                       >
                         <a href="project-single.html">
-                          <img
+                          <Image
                             src="/images/misc/up-right-arrow.webp"
                             className="w-60px p-20"
                             alt="View details"
+                            width={60}
+                            height={60}
                           />
                         </a>
                       </div>
@@ -274,10 +287,12 @@ export default function Home() {
                   <div className="relative overflow-hidden">
                     <a href="service-single.html" className="d-block hover">
                       <div className="relative overflow-hidden rounded-1">
-                        <img
+                        <Image
                           src="/images/services/3.webp"
                           className="w-100 hover-scale-1-2"
                           alt="Custom solar system design service"
+                          width={400}
+                          height={300}
                         />
                       </div>
                     </a>
@@ -288,10 +303,12 @@ export default function Home() {
                         className="abs top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px"
                       >
                         <a href="project-single.html">
-                          <img
+                          <Image
                             src="/images/misc/up-right-arrow.webp"
                             className="w-60px p-20"
                             alt="View details"
+                            width={60}
+                            height={60}
                           />
                         </a>
                       </div>
@@ -326,21 +343,25 @@ export default function Home() {
                     <p className="lh-1-5">Average increase in solar panel</p>
                   </div>
                   <div className="rounded-1 w-90 overflow-hidden wow zoomIn">
-                    <img
+                    <Image
                       src="/images/misc/s4.webp"
                       className="w-100 wow scaleIn"
                       alt="Solar panel efficiency"
+                      width={600}
+                      height={400}
                     />
                   </div>
                   <div
                     className="rounded-1 w-50 abs mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn"
                     data-wow-delay=".2s"
                   >
-                    <img
+                    <Image
                       src="/images/misc/s1.webp"
                       className="w-100 wow scaleIn"
                       data-wow-delay=".2s"
                       alt="Solar installation"
+                      width={400}
+                      height={300}
                     />
                   </div>
                 </div>
@@ -443,8 +464,8 @@ export default function Home() {
                   <span className="op-3">with Clean Energy</span>
                 </h2>
                 <p className="lead mb-0 wow fadeInUp">
-                  Explore our latest solar installations-from residential
-                  rooftops to commercial systems-each designed for maximum
+                  Explore our latest solar installations—from residential
+                  rooftops to commercial systems—each designed for maximum
                   efficiency and sustainability.
                 </p>
                 <div className="spacer-single"></div>
@@ -473,10 +494,12 @@ export default function Home() {
                               className="hover rounded-1 relative overflow-hidden text-light"
                             >
                               <div className="abs p-40 top-0 z-3">
-                                <img
+                                <Image
                                   src="/images/misc/up-right-arrow-white.webp"
                                   className="w-10 mb-3 wow scaleIn"
                                   alt="View project"
+                                  width={40}
+                                  height={40}
                                 />
                               </div>
                               <div className="abs p-40 bottom-0 z-3">
@@ -488,10 +511,12 @@ export default function Home() {
                               <div
                                 className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"
                               ></div>
-                              <img
+                              <Image
                                 src="/images/projects/1.webp"
                                 className="w-100 hover-scale-1-2"
                                 alt="BrightHome Energy solar project"
+                                width={400}
+                                height={300}
                               />
                               <div className="gradient-edge-bottom h-50"></div>
                             </div>
@@ -504,10 +529,12 @@ export default function Home() {
                               className="hover rounded-1 relative overflow-hidden text-light"
                             >
                               <div className="abs p-40 top-0 z-3">
-                                <img
+                                <Image
                                   src="/images/misc/up-right-arrow-white.webp"
                                   className="w-10 mb-3 wow scaleIn"
                                   alt="View project"
+                                  width={40}
+                                  height={40}
                                 />
                               </div>
                               <div className="abs p-40 bottom-0 z-3">
@@ -519,10 +546,12 @@ export default function Home() {
                               <div
                                 className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"
                               ></div>
-                              <img
+                              <Image
                                 src="/images/projects/2.webp"
                                 className="w-100 hover-scale-1-2"
                                 alt="GreenMart Supermarket solar project"
+                                width={400}
+                                height={300}
                               />
                               <div className="gradient-edge-bottom h-50"></div>
                             </div>
@@ -535,10 +564,12 @@ export default function Home() {
                               className="hover rounded-1 relative overflow-hidden text-light"
                             >
                               <div className="abs p-40 top-0 z-3">
-                                <img
+                                <Image
                                   src="/images/misc/up-right-arrow-white.webp"
                                   className="w-10 mb-3 wow scaleIn"
                                   alt="View project"
+                                  width={40}
+                                  height={40}
                                 />
                               </div>
                               <div className="abs p-40 bottom-0 z-3">
@@ -550,10 +581,12 @@ export default function Home() {
                               <div
                                 className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"
                               ></div>
-                              <img
+                              <Image
                                 src="/images/projects/3.webp"
                                 className="w-100 hover-scale-1-2"
                                 alt="EcoSchool Initiative solar project"
+                                width={400}
+                                height={300}
                               />
                               <div className="gradient-edge-bottom h-50"></div>
                             </div>
@@ -566,10 +599,12 @@ export default function Home() {
                               className="hover rounded-1 relative overflow-hidden text-light"
                             >
                               <div className="abs p-40 top-0 z-3">
-                                <img
+                                <Image
                                   src="/images/misc/up-right-arrow-white.webp"
                                   className="w-10 mb-3 wow scaleIn"
                                   alt="View project"
+                                  width={40}
+                                  height={40}
                                 />
                               </div>
                               <div className="abs p-40 bottom-0 z-3">
@@ -581,10 +616,12 @@ export default function Home() {
                               <div
                                 className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"
                               ></div>
-                              <img
+                              <Image
                                 src="/images/projects/4.webp"
                                 className="w-100 hover-scale-1-2"
                                 alt="UrbanSolar 360 project"
+                                width={400}
+                                height={300}
                               />
                               <div className="gradient-edge-bottom h-50"></div>
                             </div>
@@ -597,10 +634,12 @@ export default function Home() {
                               className="hover rounded-1 relative overflow-hidden text-light"
                             >
                               <div className="abs p-40 top-0 z-3">
-                                <img
+                                <Image
                                   src="/images/misc/up-right-arrow-white.webp"
                                   className="w-10 mb-3 wow scaleIn"
                                   alt="View project"
+                                  width={40}
+                                  height={40}
                                 />
                               </div>
                               <div className="abs p-40 bottom-0 z-3">
@@ -612,10 +651,12 @@ export default function Home() {
                               <div
                                 className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"
                               ></div>
-                              <img
+                              <Image
                                 src="/images/projects/5.webp"
                                 className="w-100 hover-scale-1-2"
                                 alt="Solaria Cares community project"
+                                width={400}
+                                height={300}
                               />
                               <div className="gradient-edge-bottom h-50"></div>
                             </div>
@@ -628,10 +669,12 @@ export default function Home() {
                               className="hover rounded-1 relative overflow-hidden text-light"
                             >
                               <div className="abs p-40 top-0 z-3">
-                                <img
+                                <Image
                                   src="/images/misc/up-right-arrow-white.webp"
                                   className="w-10 mb-3 wow scaleIn"
                                   alt="View project"
+                                  width={40}
+                                  height={40}
                                 />
                               </div>
                               <div className="abs p-40 bottom-0 z-3">
@@ -643,10 +686,12 @@ export default function Home() {
                               <div
                                 className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"
                               ></div>
-                              <img
+                              <Image
                                 src="/images/projects/6.webp"
                                 className="w-100 hover-scale-1-2"
                                 alt="SunSmart Office solar battery storage project"
+                                width={400}
+                                height={300}
                               />
                               <div className="gradient-edge-bottom h-50"></div>
                             </div>
@@ -670,19 +715,19 @@ export default function Home() {
       {[...Array(2)].map((_, idx) => (
         <React.Fragment key={idx}>
           <span className="text-4xl font-bold mx-4 text-yellow-400">Solar Panel Installation</span>
-          <img src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" />
+          <Image src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" width={32} height={32} />
           <span className="text-4xl mx-4 text-white">Energy Storage Systems</span>
-          <img src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" />
+          <Image src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" width={32} height={32} />
           <span className="text-4xl font-bold mx-4 text-yellow-400">Off-Grid Solutions</span>
-          <img src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" />
+          <Image src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" width={32} height={32} />
           <span className="text-4xl mx-4 text-white">System Maintenance</span>
-          <img src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" />
+          <Image src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" width={32} height={32} />
           <span className="text-4xl font-bold mx-4 text-yellow-400">Solar Financing</span>
-          <img src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" />
+          <Image src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" width={32} height={32} />
           <span className="text-4xl mx-4 text-white">Energy Efficiency Audit</span>
-          <img src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" />
+          <Image src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" width={32} height={32} />
           <span className="text-4xl font-bold mx-4 text-yellow-400">EV Charger Installation</span>
-          <img src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" />
+          <Image src="/images/logo-icon.webp" className="w-8 h-8 mx-4" alt="Solaria" width={32} height={32} />
         </React.Fragment>
       ))}
     </div>
@@ -742,7 +787,7 @@ export default function Home() {
                       Is my home suitable for solar panels?
                     </div>
                     <div className="accordion-section-content" id="accordion-a3">
-                      Most homes are. Ideally, you'll need a roof with good sun
+                      Most homes are. Ideally, you&apos;ll need a roof with good sun
                       exposure (minimal shade), enough space for the panels, and
                       a structure in good condition. We provide a free
                       assessment to confirm suitability.
@@ -751,7 +796,7 @@ export default function Home() {
                       className="accordion-section-title"
                       data-tab="#accordion-a4"
                     >
-                      What's the lifespan of a solar system?
+                      What&apos;s the lifespan of a solar system?
                     </div>
                     <div className="accordion-section-content" id="accordion-a4">
                       Solar panels typically last 25-30 years or more. Inverters
@@ -767,9 +812,10 @@ export default function Home() {
                     </div>
                     <div className="accordion-section-content" id="accordion-a5">
                       Yes, solar panels still generate electricity in cloudy
-                      conditions-just at a lower output. Efficiency may drop by
-                      10-25%, but you'll still be producing power.
+                      conditions—just at a lower output. Efficiency may drop by
+                      10-25%, but you&apos;ll still be producing power.
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -796,10 +842,12 @@ export default function Home() {
                     <div
                       className="absolute w-100 h-100 top-0 bg-dark hover-op-05"
                     ></div>
-                    <img
+                    <Image
                       src="/images/background/w1.webp"
                       className="w-100 hover-scale-1-1"
                       alt="Watch our solar energy video"
+                      width={1920}
+                      height={1080}
                     />
                   </div>
                 </a>
@@ -822,7 +870,7 @@ export default function Home() {
                       <div className="d-flex justify-content-center">
                         <i className="fs-60 text-dark icon_phone"></i>
                         <div className="ms-3">
-                          <h4 className="mb-0">Need Our Services?</h4>
+                          <h4 className="mb-0">We&apos;re the solar experts</h4>
                           <p className="text-dark">Call: +1 800 987 654</p>
                         </div>
                       </div>
@@ -835,7 +883,7 @@ export default function Home() {
                       <div className="d-flex justify-content-center">
                         <i className="fs-60 text-dark icon_clock"></i>
                         <div className="ms-3">
-                          <h4 className="mb-0">Work Hours</h4>
+                          <h4 className="mb-0">Customer&apos;s choice</h4>
                           <p className="text-dark">Mon to Sat 08:00 - 17:00</p>
                         </div>
                       </div>

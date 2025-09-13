@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
               <div className="spacer-double"></div>
               <h1>Brightening Tomorrow with Clean Solar Power.</h1>
               <p>
-                At Solaria, we're committed to delivering reliable, efficient,
+                At Solaria, we&apos;re committed to delivering reliable, efficient,
                 and sustainable solar energy solutions. From residential
                 installations to commercial systems, we help you harness the
                 power of the sun and reduce your energy bills while protecting
@@ -43,10 +44,12 @@ const Hero = () => {
               <div className="p-4 bg-blur rounded-1 h-100">
                 <div className="row g-4 align-items-center">
                   <div className="col-lg-6">
-                    <img
+                    <Image
                       src="/images/misc/cst-1.webp"
                       className="w-100 rounded-1"
                       alt="Solar panel installation example"
+                      width={400}
+                      height={300}
                     />
                   </div>
                   <div className="col-lg-6">
@@ -69,10 +72,12 @@ const Hero = () => {
                   <div className="p-4 h-100 bg-blur rounded-1">
                     <div>
                       <div className="relative">
-                        <img
+                        <Image
                           src="/images/icons-dark/1.png"
                           className="bg-color w-30 p-2 rounded-1 mb-3"
                           alt="Clean energy icon"
+                          width={120}
+                          height={120}
                         />
                         <h4>Clean Energy for a Future</h4>
                         <p className="mb-0">
@@ -88,10 +93,12 @@ const Hero = () => {
                 <div className="col-lg-6">
                   <div className="bg-color text-dark rounded-1 h-100 w-100 p-4 py-5 z-3 overflow-hidden">
                     <div className="text-end">
-                      <img
+                      <Image
                         src="/images/icons-dark/solar-panel.png"
                         className="w-80px mb-3"
                         alt="Solar panel icon"
+                        width={80}
+                        height={80}
                       />
                     </div>
                     <h5 className="mb-0">100K+</h5>

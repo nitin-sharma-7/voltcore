@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -9,14 +10,16 @@ const Footer = () => {
       <div className="container relative z-2">
         <div className="row gx-5">
           <div className="col-lg-4 col-sm-6">
-            <img
+            <Image
               src="/images/logo-white.webp"
               className="logo-footer"
               alt="Solaria Logo"
+              width={200}
+              height={60}
             />
             <div className="spacer-20"></div>
             <p>
-              At Solaria, we're committed to delivering reliable, efficient, and
+              At Solaria, we&apos;re committed to delivering reliable, efficient, and
               sustainable solar energy solutions. From residential installations
               to commercial systems, we help you harness the power of the sun
               and reduce your energy bills while protecting the planet.
@@ -157,15 +160,19 @@ const Footer = () => {
       </div>
 
       <div className="abs w-50 end-0 bottom-0 op-3">
-        <img
+        <Image
           src="/images/misc/c1.webp"
           className="w-100 rtl-hide"
           alt="Decorative background"
+          width={800}
+          height={600}
         />
-        <img
+        <Image
           src="/images/misc/c1-flip.webp"
           className="w-100 rtl-show"
           alt="Decorative background flipped"
+          width={800}
+          height={600}
         />
       </div>
     </footer>

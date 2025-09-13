@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
@@ -69,15 +70,19 @@ const Header = () => {
                 {/* logo begin */}
                 <div id="logo">
                   <Link href="/">
-                    <img
+                    <Image
                       className="logo-main"
                       src="/images/logo-white.webp"
                       alt="Solaria Logo"
+                      width={200}
+                      height={60}
                     />
-                    <img
+                    <Image
                       className="logo-mobile"
                       src="/images/logo-white.webp"
                       alt="Solaria Logo"
+                      width={150}
+                      height={45}
                     />
                   </Link>
                 </div>

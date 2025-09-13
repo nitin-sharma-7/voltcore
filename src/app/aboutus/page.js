@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -10,7 +11,7 @@ const AboutUs = () => {
           id="subheader"
           className="bg-dark text-light relative jarallax"
         >
-          <img src="images/background/2.webp" className="jarallax-img" alt="" />
+          <Image src="/images/background/2.webp" className="jarallax-img" alt="Solar energy background" width={1920} height={1080} />
           <div className="container relative z-2">
             <div className="row gy-4 gx-5 align-items-center">
               <div className="col-lg-12">
@@ -46,21 +47,25 @@ const AboutUs = () => {
                     <p className="lh-1-5">Average increase in solar panel</p>
                   </div>
                   <div className="rounded-1 w-90 overflow-hidden wow zoomIn">
-                    <img
-                      src="images/misc/s6.webp"
+                    <Image
+                      src="/images/misc/s6.webp"
                       className="w-100 wow scaleIn"
-                      alt=""
+                      alt="Solar installation team"
+                      width={600}
+                      height={400}
                     />
                   </div>
                   <div
                     className="rounded-1 w-50 abs mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn"
                     data-wow-delay=".2s"
                   >
-                    <img
-                      src="images/misc/s4.webp"
+                    <Image
+                      src="/images/misc/s4.webp"
                       className="w-100 wow scaleIn"
                       data-wow-delay=".2s"
-                      alt=""
+                      alt="Solar panel installation"
+                      width={400}
+                      height={300}
                     />
                   </div>
                 </div>
@@ -107,7 +112,7 @@ const AboutUs = () => {
             <div className="row g-4">
               <div className="col-lg-3">
                 <div className="bg-white relative border-gray rounded-1 overflow-hidden">
-                  <img src="images/team/1.webp" className="w-100" alt="" />
+                  <Image src="/images/team/1.webp" className="w-100" alt="Thomas Bennett - Solar Panel Installer" width={300} height={400} />
                   <div className="p-3 text-center">
                     <h4 className="mb-0">Thomas Bennett</h4>
                     <p className="mb-2">Solar Panel Installer</p>
@@ -128,7 +133,7 @@ const AboutUs = () => {
 
               <div className="col-lg-3">
                 <div className="bg-white relative border-gray rounded-1 overflow-hidden">
-                  <img src="images/team/2.webp" className="w-100" alt="" />
+                  <Image src="/images/team/2.webp" className="w-100" alt="Barbara Charline - Solar Energy Consultant" width={300} height={400} />
                   <div className="p-3 text-center">
                     <h4 className="mb-0">Barbara Charline</h4>
                     <p className="mb-2">Solar Energy Consultant</p>
@@ -149,7 +154,7 @@ const AboutUs = () => {
 
               <div className="col-lg-3">
                 <div className="bg-white relative border-gray rounded-1 overflow-hidden">
-                  <img src="images/team/3.webp" className="w-100" alt="" />
+                  <Image src="/images/team/3.webp" className="w-100" alt="Joshua Henry - Solar Maintenance Technician" width={300} height={400} />
                   <div className="p-3 text-center">
                     <h4 className="mb-0">Joshua Henry</h4>
                     <p className="mb-2">Solar Maintenance Technician</p>
@@ -170,7 +175,7 @@ const AboutUs = () => {
 
               <div className="col-lg-3">
                 <div className="bg-white relative border-gray rounded-1 overflow-hidden">
-                  <img src="images/team/4.webp" className="w-100" alt="" />
+                  <Image src="/images/team/4.webp" className="w-100" alt="Madison Jane - Solar Project Coordinator" width={300} height={400} />
                   <div className="p-3 text-center">
                     <h4 className="mb-0">Madison Jane</h4>
                     <p className="mb-2">Solar Project Coordinator</p>
@@ -193,10 +198,12 @@ const AboutUs = () => {
         </section>
 
         <section className="relative jarallax overflow-hidden">
-          <img
-            src="images/background/gradient-2.webp"
+          <Image
+            src="/images/background/gradient-2.webp"
             className="jarallax-img"
-            alt=""
+            alt="Solar energy gradient background"
+            width={1920}
+            height={1080}
           />
           <div className="container">
             <div className="row g-4 gx-5">
@@ -243,10 +250,12 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <img
-            src="images/misc/flowers-crop-4.webp"
+          <Image
+            src="/images/misc/flowers-crop-4.webp"
             className="w-20 absolute start-0 bottom-0 sw-anim"
-            alt=""
+            alt="Decorative flowers"
+            width={200}
+            height={150}
           />
         </section>
 

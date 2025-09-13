@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Image from "next/image";
 
 const ContactUs = () => {
   return (
@@ -11,10 +12,12 @@ const ContactUs = () => {
             id="subheader"
             className="bg-dark text-light relative jarallax"
           >
-            <img
-              src="images/background/6.webp"
+            <Image
+              src="/images/background/6.webp"
               className="jarallax-img"
-              alt=""
+              alt="Contact us background"
+              width={1920}
+              height={1080}
             />
             <div className="container relative z-2">
               <div className="row gy-4 gx-5 align-items-center">
@@ -52,7 +55,7 @@ const ContactUs = () => {
                   <p>
                     Whether you have a question, a suggestion, or just want to
                     say hello, this is the place to do it. Please fill out the
-                    form below with your details and message, and we'll get back
+                    form below with your details and message, and we&apos;ll get back
                     to you as soon as possible.
                   </p>
 
@@ -60,7 +63,7 @@ const ContactUs = () => {
                     <div className="col-lg-6">
                       <div className="d-flex align-items-center fw-bold text-dark">
                         <i className="icofont-clock-time me-2 id-color"></i>
-                        <span>We're Open</span>
+                        <span>We&apos;re Open</span>
                       </div>
                       Monday - Friday 08.00 - 18.00
                     </div>

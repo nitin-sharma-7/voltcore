@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -7,7 +8,7 @@ const Services = () => {
       <Header />
 
       <section id="subheader" className="bg-dark text-light relative jarallax">
-        <img src="images/background/w2.webp" className="jarallax-img" alt="" />
+        <Image src="/images/background/w2.webp" className="jarallax-img" alt="Services background" width={1920} height={1080} />
         <div className="container relative z-2">
           <div className="row gy-4 gx-5 align-items-center">
             <div className="col-lg-12">
@@ -79,20 +80,24 @@ const Services = () => {
                   <div className="relative overflow-hidden">
                     <a href="service-single.html" className="d-block hover">
                       <div className="relative overflow-hidden rounded-1">
-                        <img
-                          src={service.image}
+                        <Image
+                          src={`/${service.image}`}
                           className="w-100 hover-scale-1-2"
-                          alt=""
+                          alt={service.title}
+                          width={400}
+                          height={300}
                         />
                       </div>
                     </a>
                     <div className="p-30 relative bg-white rounded-1 mx-4 mt-min-100">
                       <div className="abs top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px">
                         <a href="project-single.html">
-                          <img
-                            src="images/misc/up-right-arrow.webp"
+                          <Image
+                            src="/images/misc/up-right-arrow.webp"
                             className="w-60px p-20"
-                            alt=""
+                            alt="View details"
+                            width={60}
+                            height={60}
                           />
                         </a>
                       </div>

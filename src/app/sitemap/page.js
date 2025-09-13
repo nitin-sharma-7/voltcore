@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Link from "next/link";
 
 const Sitemap = () => {
   const pages = [
@@ -45,7 +46,7 @@ const Sitemap = () => {
                 <div className="border-bottom mb-3"></div>
                 <ul className="crumb wow fadeInUp">
                   <li>
-                    <a href="/">Home</a>
+                    <Link href="/">Home</Link>
                   </li>
                   <li className="active">Sitemap</li>
                 </ul>
@@ -65,12 +66,12 @@ const Sitemap = () => {
                   <div className="row g-3">
                     {pages.map((page, index) => (
                       <div className="col-md-4" key={index}>
-                        <a 
+                        <Link 
                           href={page.path} 
                           className="d-block p-3 border rounded-1 text-decoration-none hover-bg-light"
                         >
                           {page.name}
-                        </a>
+                        </Link>
                       </div>
                     ))}
                   </div>
@@ -81,12 +82,12 @@ const Sitemap = () => {
                   <div className="row g-3">
                     {resources.map((resource, index) => (
                       <div className="col-md-4" key={index}>
-                        <a 
+                        <Link 
                           href={resource.path} 
                           className="d-block p-3 border rounded-1 text-decoration-none hover-bg-light"
                         >
                           {resource.name}
-                        </a>
+                        </Link>
                       </div>
                     ))}
                   </div>
@@ -97,12 +98,12 @@ const Sitemap = () => {
                   <div className="row g-3">
                     {legal.map((item, index) => (
                       <div className="col-md-4" key={index}>
-                        <a 
+                        <Link 
                           href={item.path} 
                           className="d-block p-3 border rounded-1 text-decoration-none hover-bg-light"
                         >
                           {item.name}
-                        </a>
+                        </Link>
                       </div>
                     ))}
                   </div>

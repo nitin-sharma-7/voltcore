@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -7,7 +8,7 @@ const Testimonials = () => {
       <Header />
 
       <section id="subheader" className="bg-dark text-light relative jarallax">
-        <img src="images/background/2.webp" className="jarallax-img" alt="" />
+        <Image src="/images/background/2.webp" className="jarallax-img" alt="Testimonials background" width={1920} height={1080} />
         <div className="container relative z-2">
           <div className="row gy-4 gx-5 align-items-center">
             <div className="col-lg-12">
@@ -40,10 +41,21 @@ const Testimonials = () => {
                 <div className="border-gray rounded-1 p-30">
                   <div className="d-flex justify-content-between mb-3">
                     <div className="d-flex align-items-center">
-                      <img
+                      <Image
                         className="w-40px circle me-3"
-                        alt=""
-                        src={`images/testimonial/${num}.webp`}
+                        alt={[
+                          "Ethan Moore",
+                          "Amanda Lee",
+                          "Michael Chen",
+                          "Lisa Nguyen",
+                          "David Rodriguez",
+                          "Sarah Thompson",
+                          "Ryan Kim",
+                          "Emily Davis",
+                        ][num - 1]}
+                        src={`/images/testimonial/${num}.webp`}
+                        width={40}
+                        height={40}
                       />
                       <div className="mt-2">
                         <div className="text-dark fw-bold lh-1">
@@ -76,10 +88,12 @@ const Testimonials = () => {
                         </small>
                       </div>
                     </div>
-                    <img
-                      src="images/misc/google-icon.svg"
+                    <Image
+                      src="/images/misc/google-icon.svg"
                       className="w-30px"
-                      alt=""
+                      alt="Google review icon"
+                      width={30}
+                      height={30}
                     />
                   </div>
                   <div className="de-rating-ext mb-2">

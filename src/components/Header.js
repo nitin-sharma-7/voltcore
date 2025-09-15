@@ -72,14 +72,14 @@ const Header = () => {
                   <Link href="/">
                     <Image
                       className="logo-main"
-                      src="/images/logo-white.webp"
+                      src="/images/new-logo.png"
                       alt="Solaria Logo"
                       width={200}
                       height={60}
                     />
                     <Image
                       className="logo-mobile"
-                      src="/images/logo-white.webp"
+                      src="/images/new-logo.png"
                       alt="Solaria Logo"
                       width={150}
                       height={45}
@@ -103,12 +103,12 @@ const Header = () => {
                     </Link>
                     <ul>
                       <li>
-                        <Link href="/servicespage">Service Page</Link>
+                        <Link href="/servicespage">Solar Panel</Link>
                       </li>
                       <li>
                         <Link href="/costcalculate">Cost Calulator</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/">Service Single</Link>
                       </li>
                       <li>
@@ -122,10 +122,10 @@ const Header = () => {
                       </li>
                       <li>
                         <Link href="/">FAQ</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link className="menu-item" href="/">
                       Projects
                     </Link>
@@ -143,12 +143,12 @@ const Header = () => {
                         <Link href="/">Project Details</Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link className="menu-item" href="/">
-                      Pages
+                    <Link className="menu-item" href="/aboutus">
+                      About Us
                     </Link>
-                    <ul>
+                    {/* <ul>
                       <li>
                         <Link href="/aboutus">About Us</Link>
                       </li>
@@ -161,13 +161,13 @@ const Header = () => {
                       <li>
                         <Link href="/testimonials">Testimonials</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
-                  <li>
+                  {/* <li>
                     <Link className="menu-item" href="/">
                       Blog
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link className="menu-item" href="/contactus">
                       Contact

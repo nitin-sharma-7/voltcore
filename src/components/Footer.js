@@ -19,10 +19,11 @@ const Footer = () => {
             />
             <div className="spacer-20"></div>
             <p>
-              At Solaria, we&apos;re committed to delivering reliable, efficient, and
-              sustainable solar energy solutions. From residential installations
-              to commercial systems, we help you harness the power of the sun
-              and reduce your energy bills while protecting the planet.
+              At Solaria, we&apos;re committed to delivering reliable,
+              efficient, and sustainable solar energy solutions. From
+              residential installations to commercial systems, we help you
+              harness the power of the sun and reduce your energy bills while
+              protecting the planet.
             </p>
 
             <div className="social-icons mb-sm-30">
@@ -96,7 +97,9 @@ const Footer = () => {
                       <Link href="/aboutus">About Us</Link>
                     </li>
                     <li>
-                      <Link href="/">Blog</Link>
+                      {/* <Link href="/">Blog</Link>
+                       */}
+                      <Link href="/testimonials">Testimonials</Link>
                     </li>
                     <li>
                       <Link href="/contactus">Contact</Link>

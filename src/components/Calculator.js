@@ -59,7 +59,7 @@ export const Calculator = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-500 py-6 px-2">
+    <div className="min-h-screen bg-gradient-to-br from-blue-500 py-10 px-2 mt-20">
       <div className="max-w-4xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-4">

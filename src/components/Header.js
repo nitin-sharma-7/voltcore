@@ -13,20 +13,31 @@ const Header = () => {
             <div className="col-lg-12">
               <div className="d-flex justify-content-between xs-hide">
                 <div className="d-flex">
-                  <div className="topbar-widget me-5">
+                  <div className="topbar-widget me-5 ">
                     <Link href="#">
-                      <i className="icofont-location-pin"></i>100 Solar Ave, San
-                      Diego, CA
+                      <i
+                        style={{ color: "darkorange" }}
+                        className="icofont-location-pin "
+                      ></i>
+                      100 Solar Ave, San Diego, CA
                     </Link>
                   </div>
                   <div className="topbar-widget me-5">
                     <Link href="#">
-                      <i className="icofont-phone"></i>+1 800 987 654
+                      <i
+                        className="icofont-phone"
+                        style={{ color: "darkorange" }}
+                      ></i>
+                      +1 800 987 654
                     </Link>
                   </div>
                   <div className="topbar-widget me-5">
                     <Link href="#">
-                      <i className="icofont-envelope"></i>support@solaria.com
+                      <i
+                        className="icofont-envelope"
+                        style={{ color: "darkorange" }}
+                      ></i>
+                      support@solaria.com
                     </Link>
                   </div>
                 </div>

@@ -115,7 +115,10 @@ const Footer = () => {
               <h5>Contact Us</h5>
 
               <div className="fw-bold text-white d-flex align-items-center">
-                <i className="icofont-location-pin me-2 id-color"></i>
+                <i
+                  className="icofont-location-pin me-2 id-color"
+                  style={{ color: "darkorange" }}
+                ></i>
                 <span>Head Office</span>
               </div>
               <div>100 Solar Ave, San Diego, CA</div>
@@ -123,7 +126,10 @@ const Footer = () => {
               <div className="spacer-20"></div>
 
               <div className="fw-bold text-white d-flex align-items-center">
-                <i className="icofont-phone me-2 id-color"></i>
+                <i
+                  className="icofont-phone me-2 id-color"
+                  style={{ color: "darkorange" }}
+                ></i>
                 <span>Call Us</span>
               </div>
               <div>+1 800 987 654</div>
@@ -131,7 +137,10 @@ const Footer = () => {
               <div className="spacer-20"></div>
 
               <div className="fw-bold text-white d-flex align-items-center">
-                <i className="icofont-envelope me-2 id-color"></i>
+                <i
+                  className="icofont-envelope me-2 id-color"
+                  style={{ color: "darkorange" }}
+                ></i>
                 <span>Email Us</span>
               </div>
               <div>support@solaria.com</div>

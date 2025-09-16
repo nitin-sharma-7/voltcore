@@ -17,17 +17,17 @@ const Hero = () => {
               <div className="spacer-double"></div>
               <h1>Brightening Tomorrow with Clean Solar Power.</h1>
               <p>
-                At Solaria, we&apos;re committed to delivering reliable, efficient,
-                and sustainable solar energy solutions. From residential
-                installations to commercial systems, we help you harness the
-                power of the sun and reduce your energy bills while protecting
-                the planet.
+                At Solaria, we&apos;re committed to delivering reliable,
+                efficient, and sustainable solar energy solutions. From
+                residential installations to commercial systems, we help you
+                harness the power of the sun and reduce your energy bills while
+                protecting the planet.
               </p>
               <Link className="btn-main fx-slide" href="/contactus">
                 <span>Get Started</span>
               </Link>
               <Link
-                style={{ backgroundColor: "lightgreen" }}
+                style={{ backgroundColor: "orange" }}
                 className="btn-main fx-slide ml-2 "
                 href="/costcalculate"
               >
